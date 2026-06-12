@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates gene expression changes across healthy colon tissue, adjacent normal tissue, and colorectal tumor tissue using the publicly available GEO dataset GSE44076.
+This project investigates gene expression changes across healthy colon tissue, adjacent normal tissue, and colorectal tumor tissue using GEO dataset GSE44076.
 
 The goal is to identify genes that show progressive expression changes during colorectal cancer development.
 
@@ -12,23 +12,15 @@ The goal is to identify genes that show progressive expression changes during co
 * Platform: Affymetrix Human Genome U219 Array
 * Samples:
 
-  * Healthy colon tissue (n=50)
-  * Adjacent normal tissue (n=98)
-  * Tumor tissue (n=98)
+  * Healthy tissue (n = 50)
+  * Adjacent normal tissue (n = 98)
+  * Tumor tissue (n = 98)
 
 Total samples: 246
 
-## Analysis Pipeline
-
-1. Load expression matrix from GEO.
-2. Separate samples into healthy, adjacent normal, and tumor groups.
-3. Calculate mean expression for each group.
-4. Compute expression changes across tissue states.
-5. Identify genes showing progressive increases from healthy → adjacent → tumor.
-
 ## Preliminary Findings
 
-Several genes demonstrated strong progressive increases across tissue states, including:
+The strongest progressively increasing genes included:
 
 * IL8
 * CXCL1
@@ -38,14 +30,26 @@ Several genes demonstrated strong progressive increases across tissue states, in
 * TIMP1
 * COL1A1
 * COL1A2
+* COL8A1
+* COL12A1
 
-These genes are associated with inflammatory signaling and extracellular matrix remodeling, suggesting that molecular alterations may occur in adjacent tissue prior to overt tumor formation.
+These genes are associated with inflammatory signaling and extracellular matrix remodeling.
 
-## Future Work
+Several genes demonstrated increased expression in adjacent normal tissue relative to healthy tissue and further increased expression in tumor tissue.
 
-* Statistical significance testing
-* Volcano plots
-* Heatmaps
-* Pathway enrichment analysis
-* Literature validation
-* Independent dataset validation
+## Current Status
+
+Completed:
+
+* Data acquisition from GEO
+* Expression matrix processing
+* Sample grouping
+* Differential expression analysis
+* Progressive gene identification
+
+Planned:
+
+* Statistical testing
+* Visualization
+* Literature review
+* Research report
