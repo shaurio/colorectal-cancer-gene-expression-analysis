@@ -88,6 +88,21 @@ A notable observation was that many of these genes exhibited elevated expression
 
 Overall, the analysis identified a set of candidate genes whose expression progressively increased across healthy, adjacent normal, and tumor colon tissues. These findings provide a foundation for further investigation into the biological significance of these genes and their potential roles in colorectal cancer development and progression.
 
+### Results Subsection
+
+Statistical testing confirmed that the identified genes were significantly differentially expressed between healthy and tumor tissues. IL8 exhibited the strongest statistical signal (p = 1.39 × 10⁻⁵⁴), followed by TIMP1, COL1A1, CXCL1, THBS2, and SPP1. All examined genes demonstrated progressively increasing expression across healthy, adjacent normal, and tumor tissues.
+
+|index|Gene|T\_Statistic|P\_Value|
+|---|---|---|---|
+|0|IL8|-27\.96735832921123|1\.393956855073207e-54|
+|1|CXCL1|-20\.558784292831508|3\.2553498294811003e-44|
+|2|SPP1|-16\.097052522531815|5\.5377223682575366e-30|
+|3|THBS2|-20\.279741902375587|4\.962829272156988e-38|
+|4|COL1A1|-22\.23867101018993|9\.928920185143985e-46|
+|5|TIMP1|-24\.772615102264776|9\.65868646072685e-51|
+
+"Using GSE44076, I identified a set of inflammatory and extracellular-matrix genes that display a stepwise expression increase from healthy tissue to adjacent normal tissue to tumor tissue."
+
 ## Literature Review Notes
 
 | Gene        | Biological Function                                             | Findings from Literature                                                             | Findings in This Project                                    |
