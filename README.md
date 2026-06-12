@@ -53,3 +53,15 @@ Planned:
 * Visualization
 * Literature review
 * Research report
+
+
+## Key Results
+
+| Gene   | Progression Strength |
+| ------ | -------------------: |
+| IL8    |                 6.09 |
+| CXCL1  |                 4.47 |
+| SPP1   |                 4.37 |
+| THBS2  |                 4.23 |
+| PHLDA1 |                 4.15 |
+| COL1A1 |                 4.06 |
