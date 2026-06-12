@@ -65,3 +65,7 @@ Planned:
 | THBS2  |                 4.23 |
 | PHLDA1 |                 4.15 |
 | COL1A1 |                 4.06 |
+
+## Figure 1
+
+![Progressive Gene Expression](figure1_progressive_genes.png)
