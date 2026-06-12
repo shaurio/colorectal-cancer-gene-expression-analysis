@@ -88,3 +88,14 @@ A notable observation was that many of these genes exhibited elevated expression
 
 Overall, the analysis identified a set of candidate genes whose expression progressively increased across healthy, adjacent normal, and tumor colon tissues. These findings provide a foundation for further investigation into the biological significance of these genes and their potential roles in colorectal cancer development and progression.
 
+## Literature Review Notes
+
+| Gene        | Biological Function                                             | Findings from Literature                                                             | Findings in This Project                                    |
+| ----------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| IL8 (CXCL8) | Chemokine involved in inflammation and immune-cell recruitment  | Associated with inflammation, tumor progression, angiogenesis, and colorectal cancer | Strong progressive increase from healthy → adjacent → tumor |
+| CXCL1       | Chemokine involved in inflammatory signaling                    | Reported to contribute to tumor progression and colorectal carcinoma                 | Progressive increase across tissue states                   |
+| SPP1        | Secreted phosphoprotein involved in cell adhesion and signaling | Frequently associated with tumor invasion and metastasis                             | Strong progressive increase                                 |
+| COL1A1      | Extracellular matrix collagen protein                           | Associated with remodeling of tumor microenvironment                                 | Progressive increase                                        |
+| TIMP1       | Regulator of extracellular matrix degradation                   | Frequently elevated in cancer tissues                                                | Progressive increase                                        |
+
+
